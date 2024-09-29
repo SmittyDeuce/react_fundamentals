@@ -1,0 +1,23 @@
+header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  width:950x; /* Ensure the image fills the container */
+  height: 800px; /* Maintain the aspect ratio of the image */
+}
+
+#header-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
